@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Sticky Positioning</title>
+     <style>
+   .sticky-header {
+  position: sticky;
+  top: 0; /* It will stick to the top of the viewport */
+  background-color: gold;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+    </style>
+    </head>
+<body>
+    <h1>Sticky Positioning</h1>
+    <div class="sticky-header">I am a sticky header.</div>
+    <p style="height: 1000px;">Scroll down to see the header stick.</p>
+</body>
+</html>
